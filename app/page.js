@@ -1,4 +1,5 @@
 import Footer from "@/components/common/Footer";
+import { SwiperIcon } from "@/components/common/Icon";
 import Navbar from "@/components/common/Navbar";
 import Awesome from "@/components/home/Awesome";
 import Experiments from "@/components/home/Experiments";
@@ -17,8 +18,10 @@ export default function Home() {
       <Hero />
       <WhyMake />
       <WhyChoose />
+      <Experiments />
 
       <Floral />
+
       <Awesome />
       <GetStarted />
       <Footer />

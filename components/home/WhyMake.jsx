@@ -26,7 +26,7 @@ const WhyMake = () => {
             Your ceremony & reception venues, your vision, your dress, your
             colours and anything else you would like.
           </p>
-          <button className=" flex items-center  max-lg:mx-auto  gap-2 px-4 md:max-w-[266px] xl:h-20 md:w-full rounded-[50px] bg-[#3F41A6] py-3 md:py-6 justify-center text-white pop  md:text-lg sm:text-base text-sm lg:text-xl font-medium ">
+          <button className=" flex items-center   hover:text-secondary hover:bg-white  cursor-pointer hover:border hover:border-[#3F41A6]  group duration-300 transition-all ease-in-out max-lg:mx-auto  gap-2 px-4 md:max-w-[266px] xl:h-20 md:w-full rounded-[50px] bg-[#3F41A6] py-3 md:py-6 justify-center text-white pop  md:text-lg sm:text-base text-sm lg:text-xl font-medium ">
             Get in Touch <ArrowIcon />{" "}
           </button>
         </div>

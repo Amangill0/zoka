@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { NavlinksData } from "./Helper";
 import { ButtonIcon } from "./Icon";
-import { Menu, X } from "lucide-react"; 
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
 
         {/* ===Button - shown on lg only=== */}
-        <button className="hidden lg:flex pop text-lg font-semibold border-[2px] gap-2 duration-300 transition-all ease-in-out text-[#3F41A6] border-[#3F41A6] items-center rounded-[22.5px] w-[145px] py-3 justify-center">
+        <button className="hidden group hover:text-white hover:bg-[#3F41A6] cursor-pointer lg:flex pop text-lg font-semibold border-[2px] gap-2 duration-300 transition-all ease-in-out text-[#3F41A6] border-[#3F41A6] items-center rounded-[22.5px] w-[145px] py-3 justify-center">
           Youtube <ButtonIcon />
         </button>
 

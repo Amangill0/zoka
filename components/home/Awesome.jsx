@@ -5,7 +5,7 @@ import { ImageData } from "../common/Helper";
 const Awesome = () => {
   return (
     <div>
-      <div className=" px-4 max-width  pt-6 md:pt-34    ">
+      <div className=" px-4 max-width pt-30  xl:pt-34    ">
         <h2 className=" text-secondary  max-lg:text-center pop md:text-5xl sm:text-4xl text-3xl lg:text-6xl  font-semibold pb-5 ">
           Our Awesome Works
         </h2>

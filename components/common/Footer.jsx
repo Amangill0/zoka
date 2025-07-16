@@ -7,7 +7,7 @@ const Footer = () => {
     <div className=" max-width py-6.5 px-4   lg:flex justify-between items-center gap-2 ">
       <Link href="#">
         {" "}
-        <h2 className=" max-lg:text-center pop font-semibold  md:text-lg sm:text-base text-sm lg:text-xl text-footer ">
+        <h2 className=" max-lg:text-center duration-300 transition-all ease-in-out hover:text-secondary pop font-semibold  md:text-lg sm:text-base text-sm lg:text-xl text-footer ">
           ZOKA © 2022. Crafted by YEV YEV ❤️{" "}
         </h2>
       </Link>

@@ -14,7 +14,7 @@ const GetStarted = () => {
             Your ceremony & reception venues, yourvision, your dress, your
             colours and anythingelse you would like to share with us.{" "}
           </p>
-          <button className="flex pop sm:text-lg text-base   max-lg:mx-auto  md:text-xl font-medium border-[2px] gap-2 duration-300 transition-all ease-in-out text-primary bg-white  items-center rounded-[50px] px-4 lg:w-[266px] py-3 lg:py-6 border-transparent justify-center">
+          <button className="flex hover:text-white hover:bg-[#431898] cursor-pointer  hover:border-[2px] hover:border-white   pop sm:text-lg text-base   max-lg:mx-auto  md:text-xl font-medium border-[2px] gap-2 duration-300 transition-all ease-in-out text-primary bg-white  items-center rounded-[50px] px-4 lg:w-[266px] py-3 lg:py-6 border-transparent justify-center">
             Get in Touch <GreyArrowIcon />
           </button>
         </div>
